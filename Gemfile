@@ -9,6 +9,7 @@ gem 'require_all'
 gem 'sqlite3'
 gem 'shotgun'
 gem 'byebug'
+gem 'bcrypt'
 
 group :test do
   gem 'launchy'

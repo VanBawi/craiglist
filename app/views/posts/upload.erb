@@ -1,0 +1,34 @@
+<!Doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="/css/signup.css">
+<head>
+
+
+<form method="POST" action='/posts/upload'>
+  <div class="container">
+    <h1>User Upload</h1>
+    <hr>
+
+    <div class="signup_text">
+    <div class="email_but">
+      Image Name:
+    <input type="text" placeholder="name" name="name"><br>
+    </div>
+      Image URL:
+    <input type="url" placeholder="Image URL" name="image_url">
+    <select>
+      <optgroup label="category">
+        <option value="forsale">For Sale</option>
+        <option value="jobs">Jobs</option>
+      </optgroup>
+    </select>
+    <hr>
+
+    <div class="register">
+    <button type="submit" class="registerbtn" value="Sign Up">Submit</button>
+    </div>
+    </div>
+  </div>
+</form>
+</html>
